@@ -1,0 +1,32 @@
+tup1=(8,9,5,1,2,3)
+tup2=("Albert",8596,"New york")
+print(tup1[0])
+print(tup2[2])
+a=max(tup1)
+print(a)
+print(min(tup1))
+print(tup1[0:2])
+
+a=(10,6)
+b=(8,9)
+if a>b:print("a is greter than b")
+else:print("b is greter than a")
+
+a={'a':15,'b':89}
+b=a.items()
+print(b)
+
+a=("Guru",8956 , "UP")
+(name,year,location)=a
+print(name)
+print(location)
+print(sorted(tup1))
+print(len(tup1))
+print(all(tup1))
+print(any(tup1))
+
+print(enumerate(tup1))
+
+print(tuple(tup1))
+
+
